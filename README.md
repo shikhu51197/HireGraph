@@ -93,5 +93,5 @@ Open `http://localhost:5173` in your browser.
 - [x] Parameterized Cypher queries
 - [x] Graceful database error handling
 - [x] Clean, intentional UI (Dark mode, glassmorphism)
-- [ ] **Hosted Demo Link**: [Insert link here]
+- [x] **Hosted Demo Link**: [Frontend App](https://hire-graph-psi.vercel.app/) | [Backend API](https://hiregraph-1xyt.onrender.com/api/jobs)
 - [ ] **Short Screen Recording**: [Insert link here]
