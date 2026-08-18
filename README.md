@@ -94,4 +94,4 @@ Open `http://localhost:5173` in your browser.
 - [x] Graceful database error handling
 - [x] Clean, intentional UI (Dark mode, glassmorphism)
 - [x] **Hosted Demo Link**: [Frontend App](https://hire-graph-psi.vercel.app/) | [Backend API](https://hiregraph-1xyt.onrender.com/api/jobs)
-- [ ] **Short Screen Recording**: [Insert link here]
+- [x] **Short Screen Recording**: [Google Drive Video](https://drive.google.com/file/d/1VyZHFdkZZlA8z7E3TO9aTRub7mn5a3rA/view?usp=sharing)
