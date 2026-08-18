@@ -70,11 +70,11 @@ COGNODB_PASSWORD=<your-password>
 ```bash
 cd server
 npm install
-npm run dev # (If you have a dev script, or just use npx ts-node src/server.ts)
+npm run dev
 ```
 *Note: Before running the server, seed the database with mock data:*
 ```bash
-npx ts-node ../database/seed.ts
+npm run seed
 ```
 
 ### 3. Running the Frontend
@@ -95,3 +95,14 @@ Open `http://localhost:5173` in your browser.
 - [x] Clean, intentional UI (Dark mode, glassmorphism)
 - [x] **Hosted Demo Link**: [Frontend App](https://hire-graph-psi.vercel.app/) | [Backend API](https://hiregraph-1xyt.onrender.com/api/jobs)
 - [x] **Short Screen Recording**: [Google Drive Video](https://drive.google.com/file/d/1VyZHFdkZZlA8z7E3TO9aTRub7mn5a3rA/view?usp=sharing)
+
+## UI Edge Cases Showcase
+
+### 1. Graceful Database Error Handling
+![Database Error State](./assets/error_state.png)
+
+### 2. Empty State (No Graph Matches)
+![Empty State](./assets/empty_state.png)
+
+### 3. Interaction & Loading State
+![Interaction Recording](./assets/loading_state.webp)
